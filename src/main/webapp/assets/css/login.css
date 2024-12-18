@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body {
+    
+    background-image: url('/billing/assets/img/bg1.jpg'); 
+       
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0; 
+    padding: 0;
+    height: 100vh; 
+}
+
+
+.error{
+	color: orangered;
+	text-align: center;
+}
+
+#reset:hover{
+	cursor: pointer;
+	color:blue;
+	
+}
+#reset{
+	color:#13647e;
+}
+
+.top-logo{
+	width: 150px;
+  padding-bottom: 20px;
+}
+
+.logOutAlert{
+	padding-right: 76%;
+}
